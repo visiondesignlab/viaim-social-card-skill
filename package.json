@@ -1,0 +1,19 @@
+{
+  "name": "viaim-social-card-skill",
+  "version": "1.0.0",
+  "description": "viaim 五色品牌图文卡片：小红书图文、公众号封面与 Live Photo",
+  "main": "index.js",
+  "scripts": {
+    "validate:brand": "node scripts/validate-viaim-brand.mjs",
+    "validate": "node validate-social-deck.mjs",
+    "render": "node scripts/render.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "playwright": "^1.60.0",
+    "subset-font": "^2.9.0"
+  },
+  "type": "module"
+}

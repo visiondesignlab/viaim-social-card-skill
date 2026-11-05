@@ -1,0 +1,4 @@
+interface:
+  display_name: "viaim Social Cards"
+  short_description: "Create viaim-branded social cards and cover pairs"
+  default_prompt: "Create a viaim-branded social card set from my source content."
